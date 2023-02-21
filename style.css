@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 2 / 2 / 3; }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 2 / 3 / 3 / 4; }
+
+#btnNao{
+  background-color: red;
+  position: absolute;
+  margin-left: 20px;
+}
+#btnSim{
+  background-color: green;
+  cursor: pointer;
+  
+}
+button{
+  color:white;
+  width: 50px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px
+  
+}
+
+.base{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
