@@ -7,10 +7,17 @@ function btnFun() {
 }
 
 function btnFunSim() { 
-  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/c7/a2/c1/c7a2c1a21a098aecae41de9ba425130a.jpg')";
-  
-  alert("Voce deixou dois Goldes felizes, te amo minha paçoquinha!!");
-  
+  //Alertzinho
+  alert("Voce me faz a pessoa mais feliz do mundo, eu te amo!!!");
+  //Definindo o background e aumentando o tamanho
+  document.body.style.backgroundImage = "url('https://i.imgur.com/lYxIY4b.jpg')";
+  document.body.style.backgroundSize = "170%";
+  //definindo a musga e tocando
   let audo = document.getElementById("MyAudio");
   audo.play();
+  //Fazendo os botões e o titulo sumirem
+  document.getElementById("btnSim").style.display = "none";
+  document.getElementById("btnNao").style.display = "none";
+  document.getElementById("texto").style.display = "none";
+  document.getElementById("segundoTexto").style.display = "block";
 }
