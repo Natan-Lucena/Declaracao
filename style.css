@@ -19,18 +19,24 @@ grid-row-gap: 0px;
   position: absolute;
   margin-left: 20px;
 }
+
 #btnSim{
   background-color: green;
   cursor: pointer;
-  
 }
+
+#btnSim:hover {
+  background-color: #3e8e41;
+  transition: background 1s;
+}
+
 button{
   color:white;
   width: 50px;
   border: 1px solid;
-  border-radius: 5px;
-  padding: 10px
-  
+  border-radius: 10px;
+  padding: 10px;
+  user-select: none;  
 }
 
 .base{
@@ -39,3 +45,4 @@ button{
   justify-content: center;
   align-items: center;
 }
+
